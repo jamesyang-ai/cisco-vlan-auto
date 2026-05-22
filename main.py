@@ -129,7 +129,7 @@ for i, l in enumerate(labels):
     e.grid(row=i, column=1, pady=2, sticky="we")
     entries.append(e)
 entry_ip, entry_user, entry_pass, entry_secret = entries
-entry_ip.insert(0, "192.168.137.10")
+entry_ip.insert(0, "192.168.43.101")
 entry_user.insert(0, "admin")
 
 f_glob = tk.LabelFrame(root, text=" 2. Hostname ", padx=10, pady=5)
